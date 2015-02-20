@@ -11,3 +11,6 @@ os.arch=amd64
 os.version=3.13.0-37-generic
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Feb 20 13:07:58 CET 2015:
+Shutting down instance a816c00e-014b-a6df-21c6-000017a08838 on database directory /home/seyyid/git/DEZSYS09/camel/ETL/target/derby with class loader java.net.URLClassLoader@7083c1f3 
