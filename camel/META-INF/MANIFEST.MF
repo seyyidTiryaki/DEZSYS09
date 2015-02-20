@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Archiver-Version: Plexus Archiver
-Created-By: Apache Maven
-Built-By: cmueller
-Build-Jdk: 1.6.0_29
-Bundle-SymbolicName: org.apache.camel.camel-example-etl.source
-Bundle-Version: 2.7.5
-Eclipse-SourceBundle: org.apache.camel.camel-example-etl;version="2.7.5"
-
