@@ -1,11 +1,13 @@
 \documentclass[12pt]{article}
 
+\usepackage{calc}
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
 \usepackage{amsmath}
 \usepackage{enumitem}
 \usepackage{graphicx}
 \usepackage{ulem}
+\usepackage{fp}
 \usepackage{caption}
 \usepackage{placeins}
 \usepackage[usenames,dvipsnames]{color}
@@ -33,6 +35,9 @@ right  = 2.00cm]{geometry}
 \begin{document}
 \begin{titlepage}
 \begin{center}
+
+
+
 % Oberer Teil der Titelseite:
 \includegraphics[width=0.5\textwidth]{images/logo}\\[1cm]    
 
@@ -85,6 +90,7 @@ Tiryaki \textsc{Seyyid}
 
 \begin{table}[h]
 
+
 \begin{tabular}{|p{0.4\textwidth}|p{0.2\textwidth}|p{0.2\textwidth}|}
 \hline
 \textbf{Task}    & \textbf{Person}                                               & \textbf{Time in hours                              } \\ \hline \hline
@@ -103,7 +109,21 @@ Bei der Enterprise Application Integration (EAI) handelt es sich um die Integrat
 Anwendungssysteme (Enterprise Applications). Diese wird in den meisten Fällen nachrichtenbasiert durchgeführt. Ein Integrationsnetz zwischen mehreren Anwendungssystemen lässt
 sich durch Kombination verschiedener EAI Patterns erstellen. Dabei wechseln sich die nachrichtenverarbeitenden Teile (Filter) und die Kanäle zwischen den Filtern (Pipes) ab und
 bilden somit einen Graphen \cite{EAIUniStuttgart}
+EAI findet praktisch in allen Bereichen der Prozessintegration insbesondere im E-Business und in Portalen Anwendung, da es eine Voraussetzung für das notwendige Straight Through Processing ist. Darüber hinaus ersetzt EAI in vielen großen Unternehmen mit komplexen IT-Landschaften klassische Middleware-Produkte und wird zu einem wichtigen IT-Architektur-Element.
+\\\\
+EAI Patterns sind Programmunabhängig, dies bedeutet das sie mit jeder Programmiersprache und jeder Plattform verwendet werden können.
+\\\\
+Patterns werden unterteilt in : 
 
+\begin{itemize}
+\item Messaging Systems,
+\item Messaging Channels,
+\item Message Constructions,
+\item Message Routing,
+\item Message Transformation,
+\item Messaging endpoints,
+\item System management.
+\end{itemize}
 
 \section{Beschreibung der Funktionsweise von Apache Camel}
 
@@ -129,7 +149,9 @@ Apache Camel ist eine freie, regelbasierte Routing- und Konvertierungsengine. Mi
  \\\\
  \textbf{Quellen:}\\
  http://camel.apache.org/ - Apache Camel Homepage - 20.02.2015 \\
- 
+ http://www.enterpriseintegrationpatterns.com/toc.html - EIP - 20.02.2015 \\
+ http://www.eaipatterns.com/ - EAI Patterns - 20.02.2015 \\
+ \underline{\textbf{Code}} : http://camel.apache.org/etl-example.html - 20.02.2015 
  
  
 \end{thebibliography}
