@@ -1,0 +1,136 @@
+\documentclass[12pt]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{ulem}
+\usepackage{caption}
+\usepackage{placeins}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{listings}
+\usepackage{fixltx2e}
+\usepackage{scrpage2}
+\usepackage{lastpage}
+\clearscrheadfoot
+\pagestyle{scrheadings}
+\usepackage{glossaries}
+\usepackage[
+top    = 2.75cm,
+bottom = 2.00cm,
+left   = 2.50cm,
+right  = 2.00cm]{geometry}
+\setcounter{secnumdepth}{4}
+
+
+\makeglossaries
+
+\newglossaryentry{glossaryVerweis} {name=abkuerzung, description={Langer Name}}
+
+
+\begin{document}
+\begin{titlepage}
+\begin{center}
+% Oberer Teil der Titelseite:
+\includegraphics[width=0.5\textwidth]{images/logo}\\[1cm]    
+
+\textsc{\LARGE Technologisches Gewerbe Museum}\\[1.5cm]
+
+% Title
+\rule{12cm}{1mm}
+{ \huge \bfseries  \\\large DezSys\\ \huge Extract, Transform and Load (ETL) with EAI \\[0.4cm] }
+
+\rule{12cm}{1mm}
+
+% Author and supervisor
+\noindent 
+\vspace{5cm}
+
+\begin{center}
+\large
+Author: 
+Pöcher \textsc{Rene} \&
+Tiryaki \textsc{Seyyid}
+\end{center}
+
+\vfill
+
+% Bottom of the page
+{\large \today}
+
+\end{center}
+\end{titlepage}
+
+\tableofcontents
+
+
+%HEADER AND FOOTER
+\pagenumbering{arabic}
+\ohead{\headmark}
+\automark{section}
+\ifoot{@ Authors}
+\ofoot{\pagemark ~of \pageref{LastPage}}
+
+\newpage
+
+
+
+\section{Working time}
+\subsection{Estimated Working time}
+\begin{center}
+\textbf{Estimated working time}
+\end{center}
+
+\begin{table}[h]
+
+\begin{tabular}{|p{0.4\textwidth}|p{0.2\textwidth}|p{0.2\textwidth}|}
+\hline
+\textbf{Task}    & \textbf{Person}                                               & \textbf{Time in hours                              } \\ \hline \hline
+Task1 & \begin{tabular}[c]{c}Coworker1\\ Coworker2\end{tabular} & \begin{tabular}[c]{c}1\\ 1\end{tabular}    \\ \hline 
+Task2 & \begin{tabular}[c]{c}Coworker1\\ Coworker2\end{tabular} & \begin{tabular}[c]{c}1\\ 1\end{tabular}    \\ \hline \hline
+Total & \begin{tabular}[c]{c}Coworker1\\ Coworker2\end{tabular} & \begin{tabular}[c]{c}2\\2\end{tabular}   \\ \hline 
+\textbf{Total Team} & & \textbf{4 hours}  \\ \hline 
+\end{tabular}
+\caption{Estimated working time}
+\end{table}
+
+
+\section{Identifikation und Beschreibung der EAI Patterns}
+
+Bei der Enterprise Application Integration (EAI) handelt es sich um die Integration großer
+Anwendungssysteme (Enterprise Applications). Diese wird in den meisten Fällen nachrichtenbasiert durchgeführt. Ein Integrationsnetz zwischen mehreren Anwendungssystemen lässt
+sich durch Kombination verschiedener EAI Patterns erstellen. Dabei wechseln sich die nachrichtenverarbeitenden Teile (Filter) und die Kanäle zwischen den Filtern (Pipes) ab und
+bilden somit einen Graphen \cite{EAIUniStuttgart}
+
+
+\section{Beschreibung der Funktionsweise von Apache Camel}
+
+Apache Camel ist eine freie, regelbasierte Routing- und Konvertierungsengine. Mit Apache Camel kann man Routing- und Konvertierungsregeln deklarativ in Java oder Scala basierend auf einer domänenspezifischen Sprache, oder mittels Spring basierter XML-Konfiguration definieren.\cite{CamelWiki} Es benützt URIs um direkt mit Transportprotokolle wie  HTTP, ActiveMQ, JMS, JBI, SCA, MINA und CXF zu arbeiten.
+
+\section{Easy Bibliography}
+
+\listoftables
+\listoffigures
+\printglossaries
+
+\begin{thebibliography}{56}
+
+\bibitem{EAIUniStuttgart}
+   \textbf{Bettina Druckenmüller-Uni Stuttgart}\\
+  \textit{http://elib.uni-stuttgart.de/opus/volltexte/2007/3049/pdf/DIP\_2583.pdf}
+  \newline last used: 10.02.2015, 09:07
+
+\bibitem{CamelWiki}
+   \textbf{Wikipedia-Apache Camel}\\
+  \textit{http://de.wikipedia.org/wiki/Apache\_Camel}
+  \newline last used: 10.02.2015, 09:013
+ \\\\
+ \textbf{Quellen:}\\
+ http://camel.apache.org/ - Apache Camel Homepage - 20.02.2015 \\
+ 
+ 
+ 
+\end{thebibliography}
+\end{document}
