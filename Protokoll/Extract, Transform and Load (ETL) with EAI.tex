@@ -19,6 +19,7 @@
 \clearscrheadfoot
 \pagestyle{scrheadings}
 \usepackage{glossaries}
+\usepackage{color}
 \usepackage[
 top    = 2.75cm,
 bottom = 2.00cm,
@@ -103,7 +104,7 @@ Total & \begin{tabular}[c]{c}Coworker1\\ Coworker2\end{tabular} & \begin{tabular
 \end{table}
 
 
-\section{Identifikation und Beschreibung der EAI Patterns}
+ \textcolor{brown}{\section{Identifikation und Beschreibung der EAI Patterns}}
 
 Bei der Enterprise Application Integration (EAI) handelt es sich um die Integration großer
 Anwendungssysteme (Enterprise Applications). Diese wird in den meisten Fällen nachrichtenbasiert durchgeführt. Ein Integrationsnetz zwischen mehreren Anwendungssystemen lässt
@@ -113,22 +114,38 @@ EAI findet praktisch in allen Bereichen der Prozessintegration insbesondere im E
 \\\\
 EAI Patterns sind Programmunabhängig, dies bedeutet das sie mit jeder Programmiersprache und jeder Plattform verwendet werden können.
 \\\\
-Patterns werden unterteilt in : 
+Patterns werden in der Aufgabe unterteilt in : 
 
 \begin{itemize}
-\item Messaging Systems,
-\item Messaging Channels,
-\item Message Constructions,
-\item Message Routing,
-\item Message Transformation,
-\item Messaging endpoints,
-\item System management.
+\item File Transfer
+\item Pipes and Filters
+\item Message Translator
+\item Message Endpoint
+\item Spliter
 \end{itemize}
 
-\section{Beschreibung der Funktionsweise von Apache Camel}
+\textcolor{brown}{\subsection{Patterns}}
+\subsubsection{Integration Styles: File Transfer}
+
+Das Verwendete Integration Style Pattern ist ein File Transfer Pattern. Es werden XML Dateien in POJO und JPA transformiert.
+"Jedes Programm erstellt Datein, welche die Informationen für die anderen Programme
+enthalten. "Integrators" übernehmen die Verantwortung des Transformierens der Dateien in
+unterschiedliche Formate. Die Dateien werden in konstanten Intervallen produziert." \\\\
+
+\includegraphics{images/filetransfer}
+
+\subsubsection{Messaging System: Pipes and Filters}
+\subsubsection{Messaging System: Message Translator}
+\subsubsection{Messaging System: Message Endpoint}
+\subsubsection{Messaging System: Spliter}
+
+
+
+\textcolor{brown}{\section{Beschreibung der Funktionsweise von Apache Camel}}
 
 Apache Camel ist eine freie, regelbasierte Routing- und Konvertierungsengine. Mit Apache Camel kann man Routing- und Konvertierungsregeln deklarativ in Java oder Scala basierend auf einer domänenspezifischen Sprache, oder mittels Spring basierter XML-Konfiguration definieren.\cite{CamelWiki} Es benützt URIs um direkt mit Transportprotokolle wie  HTTP, ActiveMQ, JMS, JBI, SCA, MINA und CXF zu arbeiten.
 
+\newpage
 \section{Easy Bibliography}
 
 \listoftables

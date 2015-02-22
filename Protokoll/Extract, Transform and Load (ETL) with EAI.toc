@@ -2,5 +2,11 @@
 \contentsline {section}{\numberline {1}Working time}{2}
 \contentsline {subsection}{\numberline {1.1}Estimated Working time}{2}
 \contentsline {section}{\numberline {2}Identifikation und Beschreibung der EAI Patterns}{2}
+\contentsline {subsection}{\numberline {2.1}Patterns}{3}
+\contentsline {subsubsection}{\numberline {2.1.1}Integration Styles: File Transfer}{3}
+\contentsline {subsubsection}{\numberline {2.1.2}Messaging System: Pipes and Filters}{3}
+\contentsline {subsubsection}{\numberline {2.1.3}Messaging System: Message Translator}{3}
+\contentsline {subsubsection}{\numberline {2.1.4}Messaging System: Message Endpoint}{3}
+\contentsline {subsubsection}{\numberline {2.1.5}Messaging System: Spliter}{3}
 \contentsline {section}{\numberline {3}Beschreibung der Funktionsweise von Apache Camel}{3}
-\contentsline {section}{\numberline {4}Easy Bibliography}{3}
+\contentsline {section}{\numberline {4}Easy Bibliography}{4}

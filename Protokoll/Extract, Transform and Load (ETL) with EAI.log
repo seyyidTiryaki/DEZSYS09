@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.7)  20 FEB 2015 12:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.7)  20 FEB 2015 12:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -705,23 +705,23 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \openout5 = `"Extract, Transform and Load (ETL) with EAI.glo"'.
 
 Package glossaries Info: Writing glossary file "Extract, Transform and Load (ET
-L) with EAI".glo on input line 30.
+L) with EAI".glo on input line 31.
 
 (./Extract, Transform and Load (ETL) with EAI.aux)
 \openout1 = `"Extract, Transform and Load (ETL) with EAI.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
@@ -810,7 +810,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 35.
+(lastpage)             ! on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/dict/glossaries-dictionary-
 English.dict
@@ -853,7 +853,7 @@ Dictionary: glossaries-dictionary, Language: English
 <images/logo.jpg, id=4, 193.72375pt x 85.31876pt>
 File: images/logo.jpg Graphic file (type jpg)
  <use images/logo.jpg>
-Package pdftex.def Info: images/logo.jpg used on input line 42.
+Package pdftex.def Info: images/logo.jpg used on input line 43.
 (pdftex.def)             Requested size: 243.1288pt x 107.07907pt.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
@@ -872,24 +872,44 @@ Overfull \vbox (2.60004pt too high) has occurred while \output is active []
 
 
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 108--117
+Underfull \hbox (badness 10000) in paragraph at lines 109--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--117
+Underfull \hbox (badness 10000) in paragraph at lines 109--118
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 119.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 120.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 119.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 120.
 
-Overfull \hbox (11.82472pt too wide) in paragraph at lines 130--131
+Overfull \vbox (2.60004pt too high) has occurred while \output is active []
+
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 130--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--134
+
+ []
+
+<images/filetransfer.png, id=21, 328.22626pt x 115.43124pt>
+File: images/filetransfer.png Graphic file (type png)
+
+<use images/filetransfer.png>
+Package pdftex.def Info: images/filetransfer.png used on input line 135.
+(pdftex.def)             Requested size: 328.22545pt x 115.43095pt.
+
+Overfull \hbox (11.82472pt too wide) in paragraph at lines 146--147
 \OT1/cmr/m/n/12 einer dom^^?anen-spez-i-fis-chen Sprache, oder mit-tels Spring 
 basierter XML-Konfiguration definieren.[[]]
  []
@@ -898,7 +918,8 @@ basierter XML-Konfiguration definieren.[[]]
 Overfull \vbox (2.60004pt too high) has occurred while \output is active []
 
 
-[2] (./Extract, Transform and Load (ETL) with EAI.lot)
+[3 <./images/filetransfer.png>]
+(./Extract, Transform and Load (ETL) with EAI.lot)
 \tf@lot=\write7
 \openout7 = `"Extract, Transform and Load (ETL) with EAI.lot"'.
 
@@ -910,7 +931,7 @@ Overfull \vbox (2.60004pt too high) has occurred while \output is active []
 
 No file "Extract, Transform and Load (ETL) with EAI".gls.
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--155
+Underfull \hbox (badness 10000) in paragraph at lines 163--172
 
  []
 
@@ -920,15 +941,15 @@ AED: lastpage setting LastPage
 Overfull \vbox (2.60004pt too high) has occurred while \output is active []
 
 
-[3] (./Extract, Transform and Load (ETL) with EAI.aux) ) 
+[4] (./Extract, Transform and Load (ETL) with EAI.aux) ) 
 Here is how much of TeX's memory you used:
- 19389 strings out of 493304
- 331052 string characters out of 6139872
+ 19394 strings out of 493304
+ 331179 string characters out of 6139872
  450209 words of memory out of 5000000
- 22400 multiletter control sequences out of 15000+600000
+ 22404 multiletter control sequences out of 15000+600000
  10882 words of font info for 39 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 63i,16n,75p,1741b,637s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,16n,75p,1747b,637s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fon
@@ -936,11 +957,11 @@ ts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmti12.pfb>
-Output written on "Extract, Transform and Load (ETL) with EAI.pdf" (4 pages, 91
-843 bytes).
+Output written on "Extract, Transform and Load (ETL) with EAI.pdf" (5 pages, 96
+178 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 51 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
